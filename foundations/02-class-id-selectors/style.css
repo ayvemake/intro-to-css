@@ -1,0 +1,29 @@
+
+.p_1, 
+.p_2, 
+.p_3 {
+    background-color: rgb(236, 151, 151);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p_2 {
+    font-size: 24px;
+}
+
+
+div {
+    font-weight: bold;
+}
+
+#firstID {
+    color: rgb(57, 79, 201);
+    font-size: 36px;
+}
+
+#secondID {
+    background-color: rgb(110, 247, 105);
+    font-size: 24px;
+}
+
+
+
