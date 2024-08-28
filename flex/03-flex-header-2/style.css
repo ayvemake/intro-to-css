@@ -4,15 +4,32 @@ you'll learn about it later. */
 
 body {
   margin: 0;
-  background: #eee;
+  background: #ffffff;
   font-family: Besley, serif;
 }
 
 .header {
-  background: white;
+  background: rgb(255, 255, 255);
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
+
+
+.left {
+  display: flex;
+  margin: 15px;
+}
+
+.right {
+  display: flex;
+  margin: 15px;
+  gap: 10px; 
+}
+
 
 .profile-image {
   background: rebeccapurple;
@@ -20,6 +37,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+
 }
 
 .logo {
@@ -27,6 +45,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 10px; 
 }
 
 button {
@@ -41,8 +60,14 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+
 }
 
 ul {
   list-style-type: none;
+  display: flex; 
+  gap: 10px; 
+  margin-left: -20px;
+
+
 }
