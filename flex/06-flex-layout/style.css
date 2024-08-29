@@ -5,22 +5,97 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+
 }
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.center-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  gap: 15spx; 
+}
+
 
 img {
   width: 600px;
 }
 
-button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
-}
-
-input {
+.input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin: 20px;  
+}
+
+input[type=text]
+{
+  text-decoration: none;
+  border: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; 
+
+}
+
+
+button {
+  border: none;
+  font-family: Roboto, sans-serif;
+  border-radius: 10px;
+  background: #eee;
+  padding: 8px;
+} 
+
+
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+
+
+
+
+.left-links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style-type: none;
+  text-decoration: none;
+  color: black; 
+}
+
+
+
+.right-links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px; 
+  list-style-type: none;
+  text-decoration: none;
+  color: black; 
+}
+
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
 }
